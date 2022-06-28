@@ -51,6 +51,28 @@
 
                 return somma;
             }
+
+            // Esercizio
+
+            int[] array = { 2, 6, 7, 5, 3, 9 };
+
+            Console.WriteLine("\nArray originale:");
+            StampaArray(array);
+
+            //Console.WriteLine(Quadrato(2));
+            int[] arrayQuadrato = ElevaArrayAlQuadrato(array);
+
+            Console.WriteLine("\nArray al quadrato:");
+            StampaArray(arrayQuadrato);
+
+            Console.WriteLine("\nArray originale:");
+            StampaArray(array);
+
+            Console.Write("\nSomma array originale: ");
+            Console.WriteLine(sommaElementiArray(array));
+
+            Console.Write("\nSomma array al quadrato: ");
+            Console.WriteLine(sommaElementiArray(arrayQuadrato));
         }
     }
 }
